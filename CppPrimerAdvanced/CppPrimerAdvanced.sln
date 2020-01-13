@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Advanced_Lesson6"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Advanced_Lesson7", "CppPrimer_Advanced_Lesson7\CppPrimer_Advanced_Lesson7.vcxproj", "{AA381FD1-9832-43E6-B041-C6992A94EDE6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Advanced_Lesson8", "CppPrimer_Advanced_Lesson8\CppPrimer_Advanced_Lesson8.vcxproj", "{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Advanced_Lesson9", "CppPrimer_Advanced_Lesson9\CppPrimer_Advanced_Lesson9.vcxproj", "{C539C8DF-4408-45CE-9CF0-74B232195721}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{AA381FD1-9832-43E6-B041-C6992A94EDE6}.Release|x64.Build.0 = Release|x64
 		{AA381FD1-9832-43E6-B041-C6992A94EDE6}.Release|x86.ActiveCfg = Release|Win32
 		{AA381FD1-9832-43E6-B041-C6992A94EDE6}.Release|x86.Build.0 = Release|Win32
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Debug|x64.ActiveCfg = Debug|x64
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Debug|x64.Build.0 = Debug|x64
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Debug|x86.Build.0 = Debug|Win32
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Release|x64.ActiveCfg = Release|x64
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Release|x64.Build.0 = Release|x64
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Release|x86.ActiveCfg = Release|Win32
+		{07E5EDC5-26EB-4A4E-8BE5-F2D27B3A87E5}.Release|x86.Build.0 = Release|Win32
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Debug|x64.ActiveCfg = Debug|x64
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Debug|x64.Build.0 = Debug|x64
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Debug|x86.ActiveCfg = Debug|Win32
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Debug|x86.Build.0 = Debug|Win32
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Release|x64.ActiveCfg = Release|x64
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Release|x64.Build.0 = Release|x64
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Release|x86.ActiveCfg = Release|Win32
+		{C539C8DF-4408-45CE-9CF0-74B232195721}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
