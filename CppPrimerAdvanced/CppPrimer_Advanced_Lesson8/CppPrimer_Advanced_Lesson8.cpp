@@ -11,10 +11,7 @@ class Dog
 public:
 	int foo(Screen& screen);
 
-	int koo(Screen& screen)
-	{
-		return screen.area();
-	}
+	int koo(Screen& screen);
 };
 
 class Screen
@@ -76,7 +73,10 @@ int Dog::foo(Screen& screen)
 {
 	return screen.height * screen.width;
 }
-
+int Dog::koo(Screen& screen)
+{
+	return screen.area();
+}
 
 int main()
 {
