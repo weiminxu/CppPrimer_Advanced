@@ -13,6 +13,8 @@ private:
 public:
 	String(char const *chars = " ");
 	String& operator=(String const&);
+	String& operator=(char const*);
+	String& operator=(char);
 
 	void print();
 };
@@ -54,6 +56,10 @@ int main()
 
 	s1 = s2;
 	s1.print();
+
+	//s1="fwfwg";//homework
+
+	//s1='A';//homework
 
 	system("pause");
 	return 0;
