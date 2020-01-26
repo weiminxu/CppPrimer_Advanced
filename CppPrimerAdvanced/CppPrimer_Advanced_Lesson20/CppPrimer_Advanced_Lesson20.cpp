@@ -38,7 +38,7 @@ char& String::operator[](std::size_t index)
 	if (index >= strlen(ptrChars))
 	{
 		cout<< "Subscript out of range!" << endl;
-		
+		//throw errorMessage;
 	}
 	
 	return ptrChars[index];
@@ -51,7 +51,7 @@ char String::operator[](std::size_t index) const
 	if (index >= strlen(ptrChars))
 	{
 		cout << "Subscript out of range!" << endl;
-
+		//throw errorMessage;
 	}
 
 	return ptrChars[index];
@@ -62,7 +62,7 @@ char String::operator[](std::size_t index) const
 int main()
 {
 	String s("hello");
-	cout << s[0] << endl;
+	cout << s[10] << endl;
 	
 	s[0] = 'A';
 	cout << s[0] << endl;
