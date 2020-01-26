@@ -48,7 +48,7 @@ String& String::operator++() //fornt ++
 
 String const String::operator++(int) //tail ++
 {
-	String copy(*this);
+	String copy(*this);//copy is not a method, it is just object
 	++(*this);
 
 	return copy;
