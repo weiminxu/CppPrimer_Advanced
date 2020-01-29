@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CppPrimer_Avanced_Lesson23.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  CppPrimer_Advanced_Lesson23.cpp
+  CppPrimer_Avanced_Lesson23.vcxproj -> D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\Debug\CppPrimer_Advanced_Lesson23.exe
