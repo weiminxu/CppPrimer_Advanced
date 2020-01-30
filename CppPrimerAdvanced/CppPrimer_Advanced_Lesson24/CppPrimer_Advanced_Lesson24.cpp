@@ -11,6 +11,14 @@ public:
 	{
 		return age;
 	}
+	operator double() const
+	{
+		return weight;
+	}
+	operator string() const
+	{
+		return name;
+	}
 private:
 	int age;
 	double weight;
@@ -20,11 +28,15 @@ private:
 
 int main()
 {
-	int b;
+	int i;
+	double di;
+	string str;
 
 	Dog d("Bill", 3, 15.09);
-	b = d;
-	cout << b << endl;
+	i = d;
+	di = d;
+	str = d;
+	cout << i << " "<< di << " " << str << endl;
 
 	return 0;
 }
