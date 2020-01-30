@@ -65,6 +65,24 @@ public:
 	}
 };
 
+class CCompareStringNoCase
+{
+public:
+	bool operator()(const string& str1, const string& str2) const
+	{
+		string str1LowerCase;
+		str1LowerCase.resize(str1.size());
+		transform(str1.begin(), str1.end(), str1LowerCase.begin(), tolower);
+
+		string str2LowerCase;
+		str2LowerCase.resize(str2.size());
+		transform(str2.begin(), str2.end(), str2LowerCase.begin(), tolower);
+
+		return (str1LowerCase < str2LowerCase);
+	}
+};
+
+
 int main()
 {
 	{
@@ -110,7 +128,6 @@ int main()
 			cout << "the first number: " << *iElement << " is divised by 4" << endl;
 		}
 	}
-	
 
 	{
 		vector<int> a, b;
@@ -135,16 +152,25 @@ int main()
 		}
 	}
 
-	/*{
-		set<string> names;
+	{
+		set<string, CCompareStringNoCase> names;
 		names.insert("Tina");
 		names.insert("jim");
 		names.insert("Jack");
 		names.insert("Same");
 		names.insert("hello");
-	
-	
-	}*/
+
+		set<string, CCompareStringNoCase>::iterator iNameFound = names.find("jack");
+		if (iNameFound != names.end())
+		{
+			cout << "it was found: " << *iNameFound << endl;
+		}
+		else
+		{
+			cout << "it was not found: " << *iNameFound << endl;
+		}
+	}
+
 	system("pause");
 	return 0;
 }
