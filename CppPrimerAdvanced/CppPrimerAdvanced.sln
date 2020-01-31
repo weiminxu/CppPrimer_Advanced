@@ -45,7 +45,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Advanced_Lesson24
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Advanced_Lesson25", "CppPrimer_Advanced_Lesson25\CppPrimer_Advanced_Lesson25.vcxproj", "{C6161074-3FDC-4A73-9439-33966EF45161}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPerimer_Advanced_Lesson26", "..\CppPerimer_Advanced_Lesson26\CppPerimer_Advanced_Lesson26.vcxproj", "{CB044B18-D6C5-44FB-9039-EF648F4F6733}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Advanced_Lesson26", "CppPrimer_Advanced_Lesson26\CppPrimer_Advanced_Lesson26.vcxproj", "{4E85FF2B-BA05-448D-A081-EE4C9BD97445}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,14 +223,14 @@ Global
 		{C6161074-3FDC-4A73-9439-33966EF45161}.Release|x64.Build.0 = Release|x64
 		{C6161074-3FDC-4A73-9439-33966EF45161}.Release|x86.ActiveCfg = Release|Win32
 		{C6161074-3FDC-4A73-9439-33966EF45161}.Release|x86.Build.0 = Release|Win32
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Debug|x64.ActiveCfg = Debug|x64
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Debug|x64.Build.0 = Debug|x64
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Debug|x86.ActiveCfg = Debug|Win32
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Debug|x86.Build.0 = Debug|Win32
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Release|x64.ActiveCfg = Release|x64
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Release|x64.Build.0 = Release|x64
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Release|x86.ActiveCfg = Release|Win32
-		{CB044B18-D6C5-44FB-9039-EF648F4F6733}.Release|x86.Build.0 = Release|Win32
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Debug|x64.ActiveCfg = Debug|x64
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Debug|x64.Build.0 = Debug|x64
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Debug|x86.Build.0 = Debug|Win32
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Release|x64.ActiveCfg = Release|x64
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Release|x64.Build.0 = Release|x64
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Release|x86.ActiveCfg = Release|Win32
+		{4E85FF2B-BA05-448D-A081-EE4C9BD97445}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
