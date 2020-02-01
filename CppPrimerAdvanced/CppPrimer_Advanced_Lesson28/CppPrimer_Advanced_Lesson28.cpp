@@ -97,7 +97,7 @@ private:
 Derived::Derived(int i, int j, int k, int l):Base1(i), Base2(j), mem(k)
 {
 	d = l;
-	cout << "Derived's contructor was called. " << endl;
+	cout << "Derived's constructor was called. " << endl;
 }
 
 Derived::~Derived()
