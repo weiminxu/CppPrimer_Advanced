@@ -109,13 +109,13 @@ int main()
 
 	int choice;
 	bool fQuit = false;
-	Shape* sp = NULL;
+	
 
 	while (fQuit == false)
 	{
 		cout << "(1)Circle (2)Rectangle (3)Square (0)Quit: ";
 		cin >> choice;
-
+		Shape* sp = NULL;
 		switch (choice)
 		{
 		case 0:
