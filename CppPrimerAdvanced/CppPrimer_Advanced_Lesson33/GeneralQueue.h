@@ -20,6 +20,7 @@ class GeneralQueue
 
 public:
 	GeneralQueue();
+	~GeneralQueue();
 	void push(Element b);
 	void pop();
 	int getlength();
@@ -79,4 +80,8 @@ GeneralQueue<Element>::GeneralQueue()
 	rear = head = new Node();
 }
 
+template<class Element>
+GeneralQueue<Element>::~GeneralQueue()
+{
+}
 #endif // !1
