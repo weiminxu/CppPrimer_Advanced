@@ -1,0 +1,3 @@
+﻿  CppPrimer_Advanced_Lesson36.cpp
+D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\CppPrimer_Advanced_Lesson36\CppPrimer_Advanced_Lesson36.cpp(50,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  CppPrimer_Advanced_Lesson36.vcxproj -> D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\Debug\CppPrimer_Advanced_Lesson36.exe
