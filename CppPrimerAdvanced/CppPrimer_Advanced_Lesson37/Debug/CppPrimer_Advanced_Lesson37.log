@@ -1,3 +1,6 @@
 ﻿  CppPrimer_Advanced_Lesson37.cpp
-D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\CppPrimer_Advanced_Lesson37\CppPrimer_Advanced_Lesson37.cpp(65,15): warning C4102: 'defult': unreferenced label
+D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\CppPrimer_Advanced_Lesson37\CppPrimer_Advanced_Lesson37.cpp(208,15): warning C4102: 'defult': unreferenced label
+D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\CppPrimer_Advanced_Lesson37\CppPrimer_Advanced_Lesson37.cpp(236,23): warning C4101: 'e': unreferenced local variable
+D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\CppPrimer_Advanced_Lesson37\CppPrimer_Advanced_Lesson37.cpp(240,24): warning C4101: 'e': unreferenced local variable
+D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\CppPrimer_Advanced_Lesson37\CppPrimer_Advanced_Lesson37.cpp(244,20): warning C4101: 'e': unreferenced local variable
   CppPrimer_Advanced_Lesson37.vcxproj -> D:\git\visual_studio_code\CppPrimer_Advanced\CppPrimerAdvanced\Debug\CppPrimer_Advanced_Lesson37.exe
