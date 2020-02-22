@@ -24,13 +24,41 @@ public:
 	int getSize();
 
 	int& operator[](int offSet);
-	const int& operator[] (int offSet) const;
+	//const int& operator[] (int offSet) const;
 
 	class xBoundary{};
 	class xZero {};
 	class xNegative {};
 	class xTooSmall {};
 	class xTooBig {};
+	/*class xSize 
+	{
+	private:
+		int itsSize;
+
+	public:
+		
+		xSize(int size) :itsSize(size) {}
+		~xSize() {}
+	};
+
+	class xZero:public xSize 
+	{
+		
+		xZero(int size) :xSize(size) {}
+	};
+	class xNegative:public xSize 
+	{
+		xNegative(int size) :xSize(size) {}
+	};
+	class xTooSmall:public xSize 
+	{
+		xTooSmall(int size) :xSize(size) {}
+	};
+	class xTooBig:public xSize 
+	{
+		xTooBig(int size) :xSize(size) {}
+	};*/
 	
 };
 
