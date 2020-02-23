@@ -140,6 +140,9 @@
   <ItemGroup>
     <ClCompile Include="CppPrimer_Advanced_Lesson39.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
